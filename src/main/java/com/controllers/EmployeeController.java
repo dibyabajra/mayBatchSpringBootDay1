@@ -92,7 +92,5 @@ public class EmployeeController {
 	}
 }
 
-//demo for git-- this line is added on day 2
-
 //commit 3 line added in git class2
 
