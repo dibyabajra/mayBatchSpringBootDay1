@@ -10,6 +10,7 @@ public class SpringBootRunner {
 		
 	SpringApplication.run(SpringBootRunner.class,args);
 	System.out.println("Hello Java");	
+	System.out.println("Hi Spring Boot");
 	}
 
 }
