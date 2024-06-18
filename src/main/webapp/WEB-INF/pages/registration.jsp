@@ -20,35 +20,24 @@
   <img src="https://tse4.mm.bing.net/th?id=OIP.E7RJLrX91eAudlmgwoA7KwHaFG&pid=Api&P=0&h=180" alt="registration image">
   <img src="images/registration.jpg" alt="registration image" style="height:140px">
   
-  <form action="registerEmp" method="post">
+  <form action="registerBook" method="post">
     <marquee><h4>${msg}</h4> </marquee>
     <div class="form-group">
-      <label for="employeeId">Employee Id:</label>
-      <input type="text" class="form-control"  placeholder="Enter employeeId" name="employeeId">
+      <label for="bookId">book Id:</label>
+      <input type="text" class="form-control"  placeholder="Enter bookId" name="bookId">
     </div>
     
      <div class="form-group">
-      <label for="empname">Employee Name:</label>
-      <input type="text" class="form-control"  placeholder="Enter employee name" name="employeeName">
+      <label for="bookname">book Name:</label>
+      <input type="text" class="form-control"  placeholder="Enter book name" name="bookName">
     </div>
     
      <div class="form-group">
-      <label for="salary">Salary:</label>
+      <label for="price">Price:</label>
       <input type="text" class="form-control"  placeholder="Enter salary" name="salary">
     </div>
     
-    <div class="form-group">
-      <label for="emailId">Email Address:</label>
-      <input type="text" class="form-control"  placeholder="Enter email address" name="emailId">
-    </div>
     
-    <div class="form-group">
-      <label for="password">Password:</label>
-      <input type="text" class="form-control"  placeholder="Enter password" name="password">
-    </div>
-    
-    
-     
     <button type="submit" class="btn btn-primary">Register</button>
     
    

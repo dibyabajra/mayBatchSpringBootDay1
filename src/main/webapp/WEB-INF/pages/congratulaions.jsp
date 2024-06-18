@@ -21,22 +21,19 @@
   <table class="table table-hover">
     <thead>
       <tr bgcolor="yellow">
-        <th>Employee Id</th>
-        <th>Employee Name</th>
-        <th>Salary</th>
-        <th>Email Address</th>
-        <th>password</th>
-        
+        <th>Book Id</th>
+        <th>Name</th>
+        <th>Price</th>
+               
       </tr>
     </thead>
     <tbody>
       
       <tr bgcolor="pink">
-        <td>${employeeDTO.employeeId}</td>
-        <td>${employeeDTO.employeeName}</td>
-        <td>${employeeDTO.salary}</td>
-        <td>${employeeDTO.emailId}</td>
-        <td>${employeeDTO.password}</td>
+        <td>${bookDTO.bookId}</td>
+        <td>${bookDTO.bookName}</td>
+        <td>${bookDTO.price}</td>
+       
         
       </tr>
       

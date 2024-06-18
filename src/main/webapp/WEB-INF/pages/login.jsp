@@ -23,13 +23,13 @@
   <form action="loginValidate" method="post">
     <h4>${message}</h4>
     <div class="form-group">
-      <label for="emailId">Email Address:</label>
-      <input type="text" class="form-control"  placeholder="Enter email address" name="emailId">
+      <label for="bookId">Book Address:</label>
+      <input type="text" class="form-control"  placeholder="Enter book address" name="bookId">
     </div>
     
      <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control"  placeholder="Enter password" name="password">
+      <label for="name">Name:</label>
+      <input type="name" class="form-control"  placeholder="Enter name" name="name">
     </div>
     
      

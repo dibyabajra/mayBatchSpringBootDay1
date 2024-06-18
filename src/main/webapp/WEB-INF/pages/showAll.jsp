@@ -22,34 +22,30 @@
   <table class="table table-hover">
     <thead>
       <tr bgcolor="yellow">
-        <th>Employee Id</th>
-        <th>Employee Name</th>
-        <th>Salary</th>
-        <th>Email Address</th>
-        <th>password</th>
+        <th>Book Id</th>
+        <th>Book Name</th>
+        <th>Price</th>
         <th colspan=2>Action(Delete/Edit)</th>
         
       </tr>
     </thead>
     <tbody>
       
-      <c:forEach items="${employeeDtoList}" var="tempa">
+      <c:forEach items="${bookDtoList}" var="tempa">
       
          
 		      <tr bgcolor="pink">
-		        <td>${tempa.employeeId}</td>
-		        <td>${tempa.employeeName}</td>
-		        <td>${tempa.salary}</td>
-		        <td>${tempa.emailId}</td>
-		        <td>${tempa.password}</td>
+		        <td>${tempa.bookId}</td>
+		        <td>${tempa.bookName}</td>
+		        <td>${tempa.price}</td>
 		        <td>
-		       		<a href="deleteEmployee?employeeId=${tempa.employeeId}">
+		       		<a href="deletebook?bookId=${tempa.bookId}">
 		       			<button type="button" class="btn btn-warning">
 		       		</button>
 		       		</a> 
 		        </td>
 		        <td>
-		        	<a href="updateEmployee?employeeId=${tempa.employeeId}">
+		        	<a href="updatebook?bookId=${tempa.bookId}">
 		       			<button type="button" class="btn btn-success">
 		       			<img src="images/edit.jpg" alt="delete image" style="height:10px; width:10px">
 		       		</button>

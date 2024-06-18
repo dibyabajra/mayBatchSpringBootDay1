@@ -23,32 +23,21 @@
   <form action="updateEmp" method="post">
     
     <div class="form-group">
-      <label for="employeeId">Employee Id:</label>
-      <input type="text" class="form-control"  value="${employeeDTO.employeeId}" name="employeeId" readonly>
+      <label for="bookId">Book Id:</label>
+      <input type="text" class="form-control"  value="${bookDTO.bookId}" name="bookId" readonly>
     </div>
     
      <div class="form-group">
-      <label for="empname">Employee Name:</label>
-      <input type="text" class="form-control"  value="${employeeDTO.employeeName}" name="employeeName">
+      <label for="empname">Book Name:</label>
+      <input type="text" class="form-control"  value="${bookDTO.bookName}" name="bookName">
     </div>
     
      <div class="form-group">
-      <label for="salary">Salary:</label>
-      <input type="text" class="form-control"  value="${employeeDTO.salary}" name="salary">
+      <label for="price">Palary:</label>
+      <input type="text" class="form-control"  value="${bookDTO.salary}" name="salary">
     </div>
     
-    <div class="form-group">
-      <label for="emailId">Email Address:</label>
-      <input type="text" class="form-control"  value="${employeeDTO.emailId}" name="emailId">
-    </div>
-    
-    <div class="form-group">
-      <label for="password">Password:</label>
-      <input type="text" class="form-control"  value="${employeeDTO.password}" name="password">
-    </div>
-    
-    
-     
+       
     <button type="submit" class="btn btn-primary">Update</button>
     
    
